@@ -13,7 +13,7 @@ $(document).ready(function () {
         '</div>' +
     '</div>');*/
     $('meta[name=viewport]').attr("content","width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no");
-    if($("#non-member #nameac").val()=="") $("#non-member #emailaccount").val("rendyadisaputra@mail.com");
+    if($("#non-member #nameac").val()=="") $("#non-member #emailaccount").val("rendyadisaputra@gmail.com");
     if($("#non-member #nameac").val()=="") $("#non-member #nameac").val("Rendy Adi Saputra");
     if($("#non-member #phone").val()=="") $("#non-member #phone").val("08170656622");
     $('#non-member>p:first-child').html("Silahkan isi data Bank berikut: ");

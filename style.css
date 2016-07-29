@@ -1,0 +1,12 @@
+.transaction thead, .transaction tbody {
+    display: none;
+}
+#transaction-detail strong{
+    display: none;
+}
+#member-form{
+    display: none;
+}
+.nonmember-form{
+    display: none;
+}

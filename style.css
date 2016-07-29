@@ -1,7 +1,7 @@
 .transaction thead, .transaction tbody {
     display: none;
 }
-#transaction-detail strong{
+#transaction-detail> strong{
     display: none;
 }
 #member-form{

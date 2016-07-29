@@ -1,2 +1,4 @@
-alert("TEST LAGI AH");
-$('body').append("<div class='test'>test</div>");
+$(document).ready(function(){
+    alert("ini out.source.js lo");
+    $('body').append("<div class='test'>ini aku tambahin ya.. :D </div>");
+})

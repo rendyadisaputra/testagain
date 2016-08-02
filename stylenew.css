@@ -20,7 +20,6 @@
     margin: 0 auto;
     width: 96%;
 }
-}
 
 #non-member fieldset > p.field:nth-child(1), #non-member fieldset > p.field:nth-child(2), #non-member fieldset > p.field:nth-child(3) {
     display: none

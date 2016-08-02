@@ -1,4 +1,27 @@
 .transaction thead, .transaction tbody {
+    display: none
+}
+
+#transaction-detail > strong {
+    display: none
+}
+
+#member-form {
+    display: none
+}
+
+#nonmember-form {
+}
+
+#non-member fieldset > p.field:nth-child(1), #non-member fieldset > p.field:nth-child(2), #non-member fieldset > p.field:nth-child(3) {
+    display: none
+}
+
+.logo img {
+    height: 45px
+}
+
+.transaction thead, .transaction tbody {
     display: none;
 }
 

@@ -17,7 +17,7 @@ $(document).ready(function () {
     if($("#non-member #nameac").val()=="") $("#non-member #nameac").val("Rendy Adi Saputra");
     if($("#non-member #phone").val()=="") $("#non-member #phone").val("08170656622");
     $('#non-member>p:first-child').html("Silahkan isi data Bank berikut: ");
-
+    $('body').prepend('<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/rendyadisaputra/testagain/master/style.css">');
     $('body').prepend('<style type="text/css">.transaction thead,.transaction tbody{display:none}#transaction-detail> strong{display:none}#member-form{display:none}#nonmember-form{}#non-member fieldset > p.field:nth-child(1),#non-member fieldset > p.field:nth-child(2),#non-member fieldset > p.field:nth-child(3){display:none}.logo img{height:45px}</style>');
     $("#header .container").prepend("<div class='smart_header'><div class='img'><img src='https://s5.postimg.org/6cdjwwt4n/Motor_city_Logo.jpg'/></div></div>")
     $('h3.form-title').click();

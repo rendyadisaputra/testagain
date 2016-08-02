@@ -2,6 +2,11 @@
     display: none
 }
 
+
+.smart_header {
+    background: #f6f5fa none repeat scroll 0 0;
+}
+
 #transaction-detail > strong {
     display: none
 }
@@ -11,6 +16,10 @@
 }
 
 #nonmember-form {
+    float: none;
+    margin: 0 auto;
+    width: 96%;
+}
 }
 
 #non-member fieldset > p.field:nth-child(1), #non-member fieldset > p.field:nth-child(2), #non-member fieldset > p.field:nth-child(3) {

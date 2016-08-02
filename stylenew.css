@@ -66,9 +66,11 @@ h1.logo img {
     height: auto;
     width: 100%;
 }
+
 #header {
+    border-bottom: 10px solid #fcce08;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 0;
 }
 #merchant-detail {
     background: #222222 none repeat scroll 0 0;
